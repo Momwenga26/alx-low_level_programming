@@ -1,22 +1,18 @@
 #include <stdio.h>
 
 /**
- * to find size of int 
- * float
- * double
- * character
- *
  * main - Entry point
  *
- * Return: always  0
+ * Return: always 0 (success)
  */
 
 int main(void)
 {
-	printf("size of float\n");
 	printf("size of char\n");
-	printf("size of double\n");
 	printf("size of int\n");
+	printf("size of long int\n");
+	printf("size of long long int\n");
+	printf("size of float\n");
 
 	return (0);
 }
