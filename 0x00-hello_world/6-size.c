@@ -15,10 +15,11 @@ int main(void)
 	float floatType;
 
 	printf("size of a char: %zu byte(s)\n", sizeof(charType));
-	fprintf(stderr, "size of an int: %zu byte(s)\n", sizeof(intType));
+	printf("size of an int: %zu byte(s)\n", sizeof(intType));
 	printf("size of a long int: %zu byte(s)\n", sizeof(longintType));
 	printf("size of a long long int: %zu byte(s)\n", sizeof(longlongintType));
 	printf("size of a float: %zu byte(s)\n", sizeof(floatType));
+	fprintf(stderr, "variables\n");
 
 	return (0);
 }
