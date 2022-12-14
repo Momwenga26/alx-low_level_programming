@@ -1,9 +1,9 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
  * main -Entry point
  *
- * Returns: Always 0 (success)
+ * Return: Always 0 (success)
  *
  * prints all numbers of base 16 in lowercase
  */
