@@ -5,7 +5,7 @@
 /**
  * main - Entry point prints lower case alphabets in reverse order
  *
- * Returns: Always 0 (success)
+ * Return: Always 0 (success)
  *
  */
 
