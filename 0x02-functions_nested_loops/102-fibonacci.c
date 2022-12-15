@@ -18,7 +18,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if i == 50
+		if (i == 50)
 			printf("\n");
 		else
 			printf(", ");
