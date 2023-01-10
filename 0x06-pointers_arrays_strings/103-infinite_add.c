@@ -1,6 +1,6 @@
 #include "main.h"
 
-char *add_strings(char *n1, char *n2, char *r, int int r_index);
+char *add_strings(char *n1, char *n2, char *r, int r_index);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
 /**
@@ -18,7 +18,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 {
 	int num, tens = 0;
 
-	for (; *n && *n2; n1--, n2--, r_index--)
+	for (; *n1 && *n2; n1--, n2--, r_index--)
 	{
 		num = (*n1 - '0') + (*n2 - '0');
 		num += tens;
@@ -69,5 +69,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	n1 += n1_len - 1;
 	n2 += n2_len - 1;
 	*(r + size_r) = '\0';
-	return (add_string(n1, n2, r, --size_r));
+	return (add_strings(n1, n2, r, --size_r));
 }
