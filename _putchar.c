@@ -1,10 +1,10 @@
-#include "main.h"
+#include <uistd.h>
 
 /**
- * _putchar - writes the character c to standout
+ * _putchar - writes the character c to stdout
  * @c: the character to print
  *
- * Return: 1 on success
+ * Return: on success 1
  */
 
 int _putchar(char c)
